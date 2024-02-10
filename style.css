@@ -1,0 +1,48 @@
+
+.landing{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(img/pexels-cottonbro-studio-8657287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+opacity: 85%;
+}
+.welcome{
+    color: black;
+    font-weight: 700;
+}
+.progress-bar{
+    animation-name: rate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: rgb(49, 45, 45);
+}
+@keyframes rate{
+    from { width: 0;}
+
+    to{ width: 100;}
+}
+.omar::after{
+    content: " | ";
+    color: black;
+    animation-duration:1s ;
+    animation-name: shixo;
+    animation-iteration-count: infinite;
+   
+
+}
+@keyframes shixo{
+    0%{content: "EL D|";}
+    10%{content: "EL Dee|";}
+    20%{content: "EL Deen|";}
+    30%{content: "EL Deen Pha|";}
+    40%{content: "EL Deen Pharma|";}
+    50%{content: "EL Deen Pharmacy|";}
+    60%{content: "EL Deen Pharma|";}
+    70%{content: "EL Deen Pha|";}
+    80%{content: "EL Deen|";}
+    90%{content: "EL Dee|";}
+    100%{content: "EL D|";}
+}
